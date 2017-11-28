@@ -16,8 +16,9 @@
 + 接下来可以在 callback 中对 panel 页面进行修改,显示数据,等等等操作       
 
 
+***
 
-
+[一个栗子](https://github.com/beginnercarol/Study-Record/tree/master/chrome-extension)
 
 
 
