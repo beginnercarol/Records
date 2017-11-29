@@ -32,4 +32,29 @@ obj的 **自身** 是否包含`prop`属性
 >Object.keys() 方法会返回一个由一个给定对象的自身可枚举属性组成的数组，数组中属性名的排列顺序和使用 for...in 循环遍历该对象时返回的顺序一致 （两者的主要区别是 一个 for-in 循环还会枚举其原型链上的属性）。
 
 
+***
+
+## 实例
+
+
+```
+function C(){
+	this.foo = 'bar';
+	this.baz = "bim";
+}
+C.prototype.bop = "bop";
+iterate(new C());// ["foo", "baz"]
+
+iterate(C);//["length", "name", "arguments", "caller", "prototype"]
+
+```
+
+上例中的`C`是一个 `Object`
+
+注意区分 `new C()` 和 `C`
++ `new C()` 是一个实例
++ `C` 是 Object
+
+
+
 
