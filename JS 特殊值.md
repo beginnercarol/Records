@@ -32,8 +32,9 @@
 
 	+ 但是会对 `NaN` ,`+0`,`-0` 进行特殊处理
 	+ `Object.is(NaN,NaN);//true`
+	+ 以及 +0 不等于 -0
 
-	> determines whether two values are the same value.
+	> Determines whether two values are the same value.
 
 ***
 
